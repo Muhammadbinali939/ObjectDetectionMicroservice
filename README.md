@@ -33,3 +33,27 @@ Clone this repository to your local machine using the following command:
 ```bash
 git clone https://github.com/your-username/ObjectDetectionMicroservice.git
 cd ObjectDetectionMicroservice
+
+
+
+ObjectDetectionMicroservice/
+│
+├── ai_backend/
+│   ├── ai_backend.py        # AI Backend service (Flask or FastAPI)
+│   ├── yolov3_model.py      # YOLOv3 model for object detection
+│   ├── requirements.txt     # Dependencies for AI backend
+│
+├── ui_backend/
+│   ├── ui_backend.py        # UI Backend service (Flask or FastAPI)
+│   ├── templates/
+│   │   └── index.html       # HTML template for the frontend
+│   ├── static/
+│   │   └── style.css        # Optional styling for the frontend
+│
+├── output/
+│   ├── images/              # Folder to store output images with bounding boxes
+│
+├── .gitignore               # Git ignore file to exclude unnecessary files
+├── requirements.txt         # Project dependencies
+└── README.md                # Project documentation
+
